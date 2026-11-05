@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <linearGradient id="night" x1="60" y1="0" x2="1110" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101827"/>
+      <stop offset="1" stop-color="#18283A"/>
+    </linearGradient>
+    <linearGradient id="route" x1="700" y1="90" x2="1080" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2CE6C3"/>
+      <stop offset="1" stop-color="#FF786B"/>
+    </linearGradient>
+    <pattern id="map" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#9EB6C5" stroke-opacity=".09"/>
+      <circle cx="21" cy="21" r="1.5" fill="#9EB6C5" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#night)"/>
+  <rect x="660" width="540" height="340" fill="url(#map)"/>
+  <path d="M682 275C748 267 763 209 819 212C871 215 879 120 941 130C1003 139 1002 228 1075 222C1121 218 1133 173 1188 165" stroke="url(#route)" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 12"/>
+  <circle cx="819" cy="212" r="12" fill="#2CE6C3" fill-opacity=".16" stroke="#2CE6C3" stroke-width="2"/>
+  <circle cx="941" cy="130" r="12" fill="#2CE6C3" fill-opacity=".16" stroke="#2CE6C3" stroke-width="2"/>
+  <circle cx="1075" cy="222" r="14" fill="#FF786B" fill-opacity=".18" stroke="#FF786B" stroke-width="2"/>
+  <path d="M1069 222h12m-6-6v12" stroke="#FF786B" stroke-width="2" stroke-linecap="round"/>
+  <rect x="852" y="153" width="76" height="40" rx="10" fill="#F2F8F8"/>
+  <path d="M861 180v-9h10v-8h16v17m0 0v-11h17v11m-43 0h43" stroke="#172737" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="877" y="157" width="13" height="4" rx="2" fill="#FF786B"/>
+  <text x="72" y="73" fill="#51E7CF" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4">EMERGENCY RESPONSE / API</text>
+  <text x="68" y="164" fill="#F1F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-3">SIREN</text>
+  <text x="74" y="211" fill="#B8C9D4" font-family="Segoe UI,Arial,sans-serif" font-size="21">Координация вызова и ресурсов помощи.</text>
+  <rect x="74" y="254" width="124" height="4" rx="2" fill="#FF786B"/>
+  <text x="74" y="290" fill="#8599A7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">HOSPITALS  /  AMBULANCES  /  CALLS</text>
+</svg>
