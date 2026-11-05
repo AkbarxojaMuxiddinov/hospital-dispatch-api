@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/siren-response.svg" alt="SIREN — система управления экстренными вызовами" width="100%">
+  <img src="assets/cover.svg" alt="Hospital Dispatch API" width="100%">
   <br>
   <img src="https://img.shields.io/badge/Django-REST-0C4B33?style=for-the-badge&logo=django&logoColor=white" alt="Django REST">
   <img src="https://img.shields.io/badge/JWT-auth-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
@@ -8,14 +8,14 @@
   <p><strong>Вызов принят. Ресурс назначен. Статус виден.</strong></p>
 </div>
 
-**SIREN** — backend API для учёта больниц, машин скорой помощи и экстренных вызовов. В проекте есть роли пациента, водителя, врача и администратора, JWT-вход и интерактивная документация.
+Этот репозиторий содержит backend API для учёта больниц, машин скорой помощи и экстренных вызовов. В проекте есть роли пациента, водителя, врача и администратора, JWT-вход и интерактивная документация.
 
 ## Сценарий диспетчеризации
 
 ```mermaid
 sequenceDiagram
     participant P as Пациент
-    participant API as SIREN API
+    participant API as Hospital Dispatch API
     participant DB as База данных
     participant A as Скорая помощь
     P->>API: Создать экстренный вызов

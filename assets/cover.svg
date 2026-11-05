@@ -23,9 +23,10 @@
   <rect x="852" y="153" width="76" height="40" rx="10" fill="#F2F8F8"/>
   <path d="M861 180v-9h10v-8h16v17m0 0v-11h17v11m-43 0h43" stroke="#172737" stroke-width="2" stroke-linejoin="round"/>
   <rect x="877" y="157" width="13" height="4" rx="2" fill="#FF786B"/>
-  <text x="72" y="73" fill="#51E7CF" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4">EMERGENCY RESPONSE / API</text>
-  <text x="68" y="164" fill="#F1F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-3">SIREN</text>
-  <text x="74" y="211" fill="#B8C9D4" font-family="Segoe UI,Arial,sans-serif" font-size="21">Координация вызова и ресурсов помощи.</text>
+  <text x="72" y="73" fill="#51E7CF" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4">EMERGENCY RESPONSE / HEALTHCARE</text>
+  <text x="68" y="151" fill="#F1F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="-2">HOSPITAL DISPATCH</text>
+  <text x="74" y="207" fill="#F1F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="-1">API</text>
+  <text x="74" y="240" fill="#B8C9D4" font-family="Segoe UI,Arial,sans-serif" font-size="19">Больницы, автомобили и экстренные вызовы.</text>
   <rect x="74" y="254" width="124" height="4" rx="2" fill="#FF786B"/>
   <text x="74" y="290" fill="#8599A7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">HOSPITALS  /  AMBULANCES  /  CALLS</text>
 </svg>
